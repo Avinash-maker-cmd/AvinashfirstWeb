@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+  }
+  .text {
+    margin-left: 10px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .Follow {
+    background-color: skyblue;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    color: white;
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 14px;
+    color: gray;
+    margin: 4px;
+  }
+</style>
+<body>
+  <div class="container">
+    <div class="flex">
+      <div class="grid">
+        <div class="Picture"><img   style="width: 60px; height: 60px; border-radius: 50%;" src="Thumbnails/Cat image.jpeg"></div>
+        <div class="text">
+          <div class="name">Oliver</div>
+          <div><p>the cat</p></div>
+          <div><p>Popular</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="Follow">Follow</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flex">
+      <div class="grid">
+        <div class="Picture"><img   style="width: 60px; height: 60px; border-radius: 50%;" src="Thumbnails/thumbnail-1.webp"></div>
+        <div class="text">
+          <div class="name">Miami</div>
+          <div><p>the cat</p></div>
+          <div><p>Popular</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="Follow">Follow</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="flex">
+      <div class="grid">
+        <div class="Picture"><img   style="width: 60px; height: 60px; border-radius: 50%;" src="Thumbnails/thumbnail-2.webp"></div>
+        <div class="text">
+          <div class="name">Rex</div>
+          <div><p>the cat</p></div>
+          <div><p>Popular</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="Follow">Follow</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
